@@ -166,6 +166,12 @@ Steps:
  - 'Manufacturing_final.xlsx
  - 'Services_final.xlsx
  - 'complete_project_output.xlsx
+ - Raw_Manufacturing_enterprise_cleaned.xlsx
+ - Raw_Manufacturing_turnover_cleaned.xlsx
+ - Raw_Manufacturing_productionvalue_cleaned.xlsx
+ - Raw_services_enterprise.xlsx
+ - Raw_services_turnover.xlsx
+ - Raw_services_production_value.xlsx
  - Manufacturing_SQL_Results.csv
  - Serices_SQL_Results.csv
  - SQL Scripts
