@@ -66,11 +66,13 @@ Files in the /data folder includes:
  - Raw_Manufacturing_enterprise_cleaned.xlsx
  - Raw_Manufacturing_turnover_cleaned.xlsx
  - Raw_Manufacturing_productionvalue_cleaned.xlsx
+ - Manufacturing_Master-Manufacturing_Master.xlsx 
  - Manufacturing_final.xlsx
 **Services Datasets**
  - Raw_services_enterprise.xlsx
  - Raw_services_turnover.xlsx
  - Raw_services_production_value.xlsx
+ - Services_Master_services_Master.xlsx 
  - Services_final.xlsx
 These cleaned datasets were used for:
  - SQL KPI Computation
@@ -201,15 +203,17 @@ Steps:
 
 
 ## Project files included 
- - 'Manufacturing_final.xlsx
- - 'Services_final.xlsx
- - 'complete_project_output.xlsx
- - Raw_Manufacturing_enterprise_cleaned.xlsx
- - Raw_Manufacturing_turnover_cleaned.xlsx
- - Raw_Manufacturing_productionvalue_cleaned.xlsx
- - Raw_services_enterprise.xlsx
- - Raw_services_turnover.xlsx
- - Raw_services_production_value.xlsx
+ - Manufacturing_final.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/manufacturing_final.xlsx)
+ - Services_final.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/services_final.xlsx)
+ - complete_project_output.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/complete_project_output.xlsx)
+ - Manufacturing_Master-Manufacturing_Master.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/Manufacturing_Master-Manufacturing_Master.xlsx)
+ - Services_Master_Services_Master.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/Services_Master_Services_Master.xlsx)
+ - Raw_Manufacturing_enterprise_cleaned.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/Raw_Manufacture_enterprise_cleaned.xlsx)
+ - Raw_Manufacturing_turnover_cleaned.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/Raw_Manufacturing_turnover_cleaned.xlsx)
+ - Raw_Manufacturing_productionvalue_cleaned.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/Raw_Manufacturing_productionvalue_cleaned.xlsx )
+ - Raw_services_enterprise.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/Raw_Services_Enterprise.xlsx)
+ - Raw_services_turnover.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/Raw_Services_Turnover.xlsx)
+ - Raw_services_production_value.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/Raw_Services_Production_value.xlsx)
  - Manufacturing_SQL_Results.csv
  - Serices_SQL_Results.csv
  - SQL Scripts
