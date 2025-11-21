@@ -1,2 +1,197 @@
-# Eurostat Manufacturing vs Services Analysis (2013-2020)
-A full analytics project comparing the performance of the **Manufacturing** and **Services (ICT + Trade)** sectors across selected Eurpoean countries using **SQL, Python, EDA, Visualisation**
+# Multi-country Manufacturing vs Services Analysis (EU, 2013-2020)
+## Project Overview 
+This project analyzes the **Manufacturing** and **Services** sectros across six Eurpoean countries - 
+**Germany, Italy, Netherlands, Sweden, Spain and France**
+Using **Eurostat Structural Business Statistics (2005-2020)**
+
+The study across two sectors compares:
+1. **Average Growth(%)**
+2. **Average Value** (Enterprise/Turnover/Production value)
+3. **Volatility Range**
+4. **Overall growth(%)**
+
+The goal is to identify **Economic strengths, stability and sector-wise performance differences**
+
+## Why this project?
+Manufacturing and Services are the two economic pillars that define:
+1. GDP contribution
+2. Employment generation
+3. Eport competitiveness
+4. Market maturity
+
+This comparative study helps identify:
+1. High-Performing countries
+2. Stable vs. volatile economies
+3. Sectoral strengths
+4. Growth potential for businesses
+
+## This project demonstrated:
+1. **Extracted and cleaned raw Eurostat data**
+2. **Unpivoted** 6 sheets (3 manufacturing and 3 services)
+3. **Ran SQL** to compute KPIs for each sector
+4. **Merged all datasets in Python**
+5. **Performed EDA** (Histogram, boxplots, Heatmap, Summary statistics)
+6. **Created Sector-wise visual comparisons**
+7. **Generated insights** for both industries
+The result is a consolidated understanding of **Europe's manufacturing vs. service performance** from 2013 - 2020
+
+## Data Sources 
+
+## **Eurostat Strctural Business Statistics**
+1. **Manufacturing Sector (NACE Rev. 2 B-E)**
+   *Annual detailed enterprise statistics for industry(2005-2020)*
+2. **Services Sector (NACE Rev. 2 G-N, S95)**
+   *Annual detailed enterprise statistics for Services (2005-2020)*
+
+Both datasets include:
+1. Enterprise count
+2. Turnover
+3. Production value
+4. Year-wise breakdown
+
+## Final dataset shape
+After cleaning:
+1. **37 rows**
+2. **7 columns**
+3. Columns: 'Country', 'Category', 'Avg_growth_percent', 'Avg_value', 'Volatility_Range', 'Overall_growth_percent', 'Sector'
+
+## Tools and Technologies Used 
+a. Google sheets(unpivot with ARRAYFORMULA, FLATTEN, SPLIT)
+b. Excel 
+## SQL Analysis 
+1. SQlite (DB Browser/Online SQLite editor)
+2. SQL DDL + DML for:
+   - Average growth (%)
+   - Average value
+   - Volatility range
+   - Overall Growth (%)
+
+## Python Analysis 
+-  Google colab
+-  Pandas
+-  Numpy
+-  Matplotlib
+-  Seaborn
+## Version control 
+Git & Github
+
+## Methodology 
+ **1. Data cleaning**
+     - Selected 6 countries with complete multi-year data
+     - Unpivoted 6 sheets using google sheets('FLATTEN', 'SPLIT', 'ARRAYFORMULA')
+     - Removed blanks, null, duplicates 
+     - Saved each cleaned sheet as CSV
+  **2. SQL Analysis (24 KPI tables)**
+  For each of the **6 sheets**, four KPI tables were generated:
+       1. **Average Growth (%)**
+       2. **Average Value (enterpirse/turnover/prouction)**
+       3. **Volatility Range (MAX_MIN)**
+       4. **Overall growth(%)**
+  Created:
+  - **Manufacturing_master.csv**
+  - **Services_master.csv**
+    
+**3. Python Analysis**
+Steps:
+ 1. Imported master CSV files
+ 2. Merged into a final combined dataset
+ 3. Added 'sector' column
+ 4. Generated Comparative barplots for:
+     - overall growth
+     - Avergae value
+     - Volatility range
+     - Average growth
+  Saved all charts in a compiled pdf.
+
+**4. Exploratory Data Analysis (EDA) Perfomed**
+    1. Descriptive statistics 
+    2. Distribution analysis (histograms)
+    3. Boxplots (Outlier detection)
+    4. Correlation heatmap
+    5. KPI-wise bar charts
+    6. Cross-country comparisons 
+
+## Key Findings 
+
+**1. Sector-level Insights**
+   ## **Manufacturing** 
+       - High Value but **high volatility**
+       - Dominated by **Italy, Germany, Netherlands**
+       - Strong production capacity - uneven growth 
+       - More sensitive to economic cycles 
+   ## **Services**
+       - More **Stable** across countries 
+       - Lower volatility 
+       - Fewer extreme outliers 
+       - Strong ICT and Trade performance 
+
+**2. Country-level Insights**
+ **Top Performers**
+ 
+   1. **Germany** - most stable, high turnover and Production
+   2. **Italy** - Highest turnover, high output, volatile
+   3. **Netherlands** - Strong mix of services and manufacturing sectros 
+
+ **Mid Performers**
+   1. **Sweden** - stable growth
+   2. **Spain** - Moderate growth, lower volatility
+
+ **Weak performers**
+ - Countries with negative long-term growth in both sectors
+
+**3. Cross-sector comparison**
+ - Manufacturing - **High value and High volatility**
+ - Services - **lower volatility and broader distribution**
+ - Counties strong in manufacturing typically strong in services
+
+## Recommendations 
+ 1. **Prioritize stable economies**:
+    Germany and Sweden for long-term investment.
+2. **Monitor high-value but volatile markets**:
+   Italy and Netherlands.
+3. **Strengthen weak performers**:
+   Improve digital infrastructure and enterprise innovation.
+4. **Enhance manufacturing with service-integration**:
+   ICT-driven manufacturing improves resilience.
+
+## Future Scope 
+ - Forcasting using ARIMA/Prophet
+ - Clustering countries based on stability and growth
+ - machine learning models for growth prediction
+ - PowerBI or Tableau dashboard
+ - Deep-diving into sub-industries
+
+       
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
