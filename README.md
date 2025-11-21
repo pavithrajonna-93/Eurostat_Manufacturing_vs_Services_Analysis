@@ -214,9 +214,9 @@ Steps:
  - Raw_services_enterprise.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/Raw_Services_Enterprise.xlsx)
  - Raw_services_turnover.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/Raw_Services_Turnover.xlsx)
  - Raw_services_production_value.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/Raw_Services_Production_value.xlsx)
- - Manufacturing_SQL_Results.csv 
- - Serices_SQL_Results.csv
- - SQL Scripts
+ - Manufacturing_SQL_Results.csv (Sql/Manufacturing_services_SQL Results - Manufacturing results.csv)
+ - Serices_SQL_Results.csv (Sql/Manufacturing_services_SQL Results - services results.csv)
+ - SQL Scripts 
  - Python notebook (Colab)
  - All charts (PDF)
  - EDA Charts (PDF)
