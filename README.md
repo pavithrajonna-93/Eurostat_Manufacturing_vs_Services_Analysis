@@ -128,11 +128,14 @@ Git & Github
      - Removed blanks, null, duplicates 
      - Saved each cleaned sheet as CSV
   **2. SQL Analysis (24 KPI tables)**
-  For each of the **6 sheets**, four KPI tables were generated:
+  For each of the **6 sheets**, 
+  
+  four KPI tables were generated:
        1. **Average Growth (%)**
        2. **Average Value (enterpirse/turnover/prouction)**
        3. **Volatility Range (MAX_MIN)**
        4. **Overall growth(%)**
+       
   Created:
   - **Manufacturing_master.csv**
   - **Services_master.csv**
