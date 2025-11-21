@@ -1,4 +1,4 @@
-# Multi-country Manufacturing vs Services Analysis (EU, 2013-2020)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e986c9bf-0bc4-40fb-be63-8e37a31714a8" /># Multi-country Manufacturing vs Services Analysis (EU, 2013-2020)
 ## Project Summary
 This project analyzes the **Manufacturing** and **Services** sectros across six Eurpoean countries - 
 **Germany, Italy, Netherlands, Sweden, Spain and France**
@@ -99,8 +99,6 @@ These countries also represent:
 - Stable long-term data
 - High research value for comparative analysis
   
-
-
 ## Tools and Technologies Used 
 1. Google sheets(unpivot with ARRAYFORMULA, FLATTEN, SPLIT)
 2.  Excel 
@@ -121,6 +119,38 @@ These countries also represent:
 ## Version control 
 Git & Github
 
+## Folder Structure 
+This Repository follows a clean and professional structure for clarity, reproducibility and evaluation by universities/Recruiters.
+
+# Project Layout 
+
+1. README.md
+2. data/ - contains raw and cleaned CSVs
+  -  Raw_Manufacturing_enterprise_cleaned.xlsx
+  -  Raw_Manufacturing_turnover_cleaned.xlsx
+  -  Raw_Manufacturing_productionvalue_cleaned.xlsx
+  -  Manufacturing_Master-Manufacturing_Master.xlsx
+  -  Manufacturing_final.xlsx
+  -  Raw_services_enterprise.xlsx
+  -  Raw_services_turnover.xlsx
+  -  Raw_services_production_value.xlsx
+  -  Services_Master_services_Master.xlsx
+  -  Services_final.xlsx
+3. sql/ - contains all SQL queries and resulted tables 
+ - Manufacturing_sql_results.csv
+ - Services_sql_results.csv
+ - SQL Scripts (PDF)
+4. python/ - contains all python scripts - inclduing analysis 
+   - python notebook(colab)
+5. notebooks/ - full google colab notebook 
+   - python notebook(colab)
+6. charts/ - Charts created in python analysis 
+    - All charts (PDF)
+    - EDA Charts (PDF)
+7. reports/ - Project report PDFs appendix 
+     - Final_project_report(PDF)
+     - Appendix (PDF)
+     
 ## Methodology 
  **1. Data cleaning**
      - Selected 6 countries with complete multi-year data
