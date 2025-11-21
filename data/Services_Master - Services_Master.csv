@@ -1,0 +1,19 @@
+Country ,Category,Avg_growth_percent,Avg_value,Volataility_Range,Overall_growth_Percent
+Sweden,Enterprise,0,29258.13,1853,0
+Spain,Enterprise,14.29,1.25,1,100
+Netherlands,Enterprise,-16.67,39241.75,-37689,-100
+Italy,Enterprise,0,1,0,0
+Germany,Enterprise,1406929,23670.38,-90870,0
+France,Enterprise,0,1,0,0
+Sweden,Turnover,-0.53,46822.47,5904.6,13.67
+Spain,Turnover,0.2,24238.9,-94769.2,-100
+Netherlands,Turnover,-4.82,73742.13,-75578.6,-100
+Italy,Turnover,0,1,0,0
+Germany,Turnover,0,2.63,1,0
+France,Turnover,0,1.88,1,100
+Sweden,Production_value,-1.61,47672.31,6166.2,14
+Spain,Production_value,0.74,81271.5,21745.7,30.1
+Netherlands,Production_value,-19.77,69738.85,-64975.8,-100
+Italy,Production_value,0,1,0,0
+Germany,Production_value,0,2,0,0
+France,Production_value,0,2,0,0
