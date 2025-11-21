@@ -131,10 +131,10 @@ Git & Github
   For each of the **6 sheets**, 
   
   four KPI tables were generated:
-       1.**Average Growth (%)**
-       2.**Average Value (enterpirse/turnover/prouction)**
-       3.**Volatility Range (MAX_MIN)**
-       4.**Overall growth(%)**
+    1. **Average Growth (%)**
+    2. **Average Value (enterpirse/turnover/prouction)**
+    3. **Volatility Range (MAX_MIN)**
+    4. **Overall growth(%)**
        
   Created:
   - **Manufacturing_master.csv**
@@ -153,12 +153,12 @@ Steps:
   Saved all charts in a compiled pdf.
 
 **4. Exploratory Data Analysis (EDA) Perfomed**
-    1.Descriptive statistics 
-    2.Distribution analysis (histograms)
-    3.Boxplots (Outlier detection)
-    4.Correlation heatmap
-    5.KPI-wise bar charts
-    6.Cross-country comparisons 
+    1. Descriptive statistics 
+    2. Distribution analysis (histograms)
+    3. Boxplots (Outlier detection)
+    4. Correlation heatmap
+    5. KPI-wise bar charts
+    6. Cross-country comparisons 
 
 ## Key Findings 
 
