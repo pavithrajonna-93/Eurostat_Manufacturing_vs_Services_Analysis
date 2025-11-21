@@ -161,7 +161,22 @@ Steps:
  - PowerBI or Tableau dashboard
  - Deep-diving into sub-industries
 
-       
+
+## Project files included 
+ - 'Manufacturing_Master.csv
+ - 'Services_Master.csv'
+ - 'complete_project_output.csv
+ - Manufacturing_SQL_Results.csv
+ - Serices_SQL_Results.csv
+ - SQL Scripts
+ - Python notebook (Colab)
+ - All charts (PDF)
+ - EDA Charts (PDF)
+ - Full project report with methodology and insights 
+
+## Author
+**Pavithra jonna**
+HR Data managemet Specialist 
 
 
  
