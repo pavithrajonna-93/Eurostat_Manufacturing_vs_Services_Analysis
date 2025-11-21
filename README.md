@@ -56,8 +56,8 @@ After cleaning:
 3. Columns: 'Country', 'Category', 'Avg_growth_percent', 'Avg_value', 'Volatility_Range', 'Overall_growth_percent', 'Sector'
 
 ## Tools and Technologies Used 
-a. Google sheets(unpivot with ARRAYFORMULA, FLATTEN, SPLIT)
-b. Excel 
+1. Google sheets(unpivot with ARRAYFORMULA, FLATTEN, SPLIT)
+2.  Excel 
 ## SQL Analysis 
 1. SQlite (DB Browser/Online SQLite editor)
 2. SQL DDL + DML for:
@@ -163,16 +163,17 @@ Steps:
 
 
 ## Project files included 
- - 'Manufacturing_Master.csv
- - 'Services_Master.csv'
- - 'complete_project_output.csv
+ - 'Manufacturing_final.xlsx
+ - 'Services_final.xlsx
+ - 'complete_project_output.xlsx
  - Manufacturing_SQL_Results.csv
  - Serices_SQL_Results.csv
  - SQL Scripts
  - Python notebook (Colab)
  - All charts (PDF)
  - EDA Charts (PDF)
- - Full project report with methodology and insights 
+ - Full project report with methodology and insights(PDF)
+ - Appendix_Visualisation (PDF)
 
 ## Author
 **Pavithra jonna**
