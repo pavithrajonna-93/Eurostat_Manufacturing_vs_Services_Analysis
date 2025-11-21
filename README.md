@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e986c9bf-0bc4-40fb-be63-8e37a31714a8" /># Multi-country Manufacturing vs Services Analysis (EU, 2013-2020)
+# Multi-country Manufacturing vs Services Analysis (EU, 2013-2020)
 ## Project Summary
 This project analyzes the **Manufacturing** and **Services** sectros across six Eurpoean countries - 
 **Germany, Italy, Netherlands, Sweden, Spain and France**
