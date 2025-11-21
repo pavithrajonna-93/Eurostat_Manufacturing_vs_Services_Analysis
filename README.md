@@ -214,14 +214,14 @@ Steps:
  - Raw_services_enterprise.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/Raw_Services_Enterprise.xlsx)
  - Raw_services_turnover.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/Raw_Services_Turnover.xlsx)
  - Raw_services_production_value.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/Raw_Services_Production_value.xlsx)
- - Manufacturing_SQL_Results.csv (Sql/Manufacturing_services_SQL Results - Manufacturing results.csv)
- - Serices_SQL_Results.csv (Sql/Manufacturing_services_SQL Results - services results.csv)
- - SQL Scripts 
- - Python notebook (Colab)
- - All charts (PDF)
- - EDA Charts (PDF)
- - Full project report with methodology and insights(PDF)
- - Appendix_Visualisation (PDF)
+ - Manufacturing_SQL_Results.csv (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/Sql/Manufacturing_services_SQLResults.csv)
+ - Serices_SQL_Results.csv (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/Sql/Manufacturing_services_SQLResults.csv)
+ - SQL Scripts (https://github.com/pavithrajonna-93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/Sql/SQLScript-Manufacturing-Servicesproject.pdf)
+ - Python notebook(Colab) (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/Python/Copy_of_project_eurostat_.ipynb)
+ - All charts (PDF) (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/Charts/All_Charts.pdf)
+ - EDA Charts (PDF) (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/Charts/EDA_CHARTS_ALL.pdf)
+ - Full project report with methodology and insights(PDF) (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/Reports/EUStat_Manufacturing_Services_Analysis_Project_Report.pdf)
+ - Appendix_Visualisation (PDF) (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/Reports/Eustat_Manufacturing_Services_Analysis_Porject_Appendix.pdf)
 
 ## Author
 **Pavithra jonna**
