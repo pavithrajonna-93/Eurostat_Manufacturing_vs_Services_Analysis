@@ -1,5 +1,5 @@
 # Multi-country Manufacturing vs Services Analysis (EU, 2013-2020)
-## Project Overview 
+## Project Summary
 This project analyzes the **Manufacturing** and **Services** sectros across six Eurpoean countries - 
 **Germany, Italy, Netherlands, Sweden, Spain and France**
 Using **Eurostat Structural Business Statistics (2005-2020)**
@@ -50,10 +50,48 @@ Both datasets include:
 4. Year-wise breakdown
 
 ## Final dataset shape
-After cleaning:
+After cleaning final dataset contains 
 1. **37 rows**
 2. **7 columns**
-3. Columns: 'Country', 'Category', 'Avg_growth_percent', 'Avg_value', 'Volatility_Range', 'Overall_growth_percent', 'Sector'
+3. Columns:
+   - Country - Selected European Countries (Germany, Italy, Netherlands, Sweden, Spain, France)
+   - Category - Enterprise/Turnover/Production value
+   - Avg_growth_percent - Average Yoy growth across years
+   - Avg_value - Average metric vakue (enterpirse count, turnoer or production)
+   - Volatility_Range - Max-Min range across years
+   - Overall_growth_percent - Total long-term growth (first vs last year)
+   - Sector - Manufacturing or Services
+Files in the /data folder includes:
+**Manufacturing Datasets**
+ - Raw_Manufacturing_enterprise_cleaned.xlsx
+ - Raw_Manufacturing_turnover_cleaned.xlsx
+ - Raw_Manufacturing_productionvalue_cleaned.xlsx
+ - Manufacturing_final.xlsx
+**Services Datasets**
+ - Raw_services_enterprise.xlsx
+ - Raw_services_turnover.xlsx
+ - Raw_services_production_value.xlsx
+ - Services_final.xlsx
+These cleaned datasets were used for:
+ - SQL KPI Computation
+ - Python Merging
+ - EDA
+ - Visualisation
+# Why these countries?
+Eurostat provides complete and consistent data only for the following six countries across all metrics:
+ - Germany
+ - Italy
+ - Netherlands
+ - Sweden
+ - Spain
+ - France
+These countries also represent:
+- Major EU economies
+- Strong manufacturing and services mix
+- Stable long-term data
+- High research value for comparative analysis
+  
+
 
 ## Tools and Technologies Used 
 1. Google sheets(unpivot with ARRAYFORMULA, FLATTEN, SPLIT)
