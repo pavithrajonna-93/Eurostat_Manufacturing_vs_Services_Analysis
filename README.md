@@ -61,24 +61,29 @@ After cleaning final dataset contains
    - Volatility_Range - Max-Min range across years
    - Overall_growth_percent - Total long-term growth (first vs last year)
    - Sector - Manufacturing or Services
+
 Files in the /data folder includes:
+
 **Manufacturing Datasets**
  - Raw_Manufacturing_enterprise_cleaned.xlsx
  - Raw_Manufacturing_turnover_cleaned.xlsx
  - Raw_Manufacturing_productionvalue_cleaned.xlsx
  - Manufacturing_Master-Manufacturing_Master.xlsx 
  - Manufacturing_final.xlsx
+   
 **Services Datasets**
  - Raw_services_enterprise.xlsx
  - Raw_services_turnover.xlsx
  - Raw_services_production_value.xlsx
  - Services_Master_services_Master.xlsx 
  - Services_final.xlsx
+   
 These cleaned datasets were used for:
  - SQL KPI Computation
  - Python Merging
  - EDA
  - Visualisation
+   
 # Why these countries?
 Eurostat provides complete and consistent data only for the following six countries across all metrics:
  - Germany
@@ -87,6 +92,7 @@ Eurostat provides complete and consistent data only for the following six countr
  - Sweden
  - Spain
  - France
+   
 These countries also represent:
 - Major EU economies
 - Strong manufacturing and services mix
