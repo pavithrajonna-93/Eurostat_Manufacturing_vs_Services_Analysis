@@ -64,7 +64,8 @@ The result is a consolidated understanding of **Europe's manufacturing vs. servi
   
 ## Tools and Technologies Used 
 1. Google sheets(unpivot with ARRAYFORMULA, FLATTEN, SPLIT)
-2.  Excel 
+2.  Excel
+   
 **SQL Analysis**
 1. SQlite (DB Browser/Online SQLite editor)
 2. SQL DDL + DML for:
@@ -79,6 +80,7 @@ The result is a consolidated understanding of **Europe's manufacturing vs. servi
 -  Numpy
 -  Matplotlib
 -  Seaborn
+  
 **Version control**
 Git & Github
 
@@ -150,6 +152,7 @@ These cleaned datasets were used for:
  - Visualisation
    
 **Why these countries?**
+
 Eurostat provides complete and consistent data only for the following six countries across all metrics:
  - Germany
  - Italy
@@ -170,6 +173,7 @@ These countries also represent:
      - Unpivoted 6 sheets using google sheets('FLATTEN', 'SPLIT', 'ARRAYFORMULA')
      - Removed blanks, null, duplicates 
      - Saved each cleaned sheet as CSV
+     
   **2. SQL Analysis (24 KPI tables)**
   For each of the **6 sheets**, 
    four KPI tables were generated:
