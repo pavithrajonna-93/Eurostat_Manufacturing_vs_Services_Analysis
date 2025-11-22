@@ -14,6 +14,7 @@ Using SQL, Python and Exploratory Data Analysis(EDA), this project uncovers stru
 The analysis highlights how enterprise base, production value and turnover shape the economic landscape of Europe.
 
 ## Data Sources 
+
 **Eurostat Strctural Business Statistics**
 1. **Manufacturing Sector (NACE Rev. 2 B-E)**
    *Annual detailed enterprise statistics for industry(2005-2020)*
@@ -40,6 +41,7 @@ The study across two sectors compares:
 The goal is to identify **Economic strengths, stability and sector-wise performance differences**
 
 **Why this project?**
+
 Manufacturing and Services are the two economic pillars that define:
 1. GDP contribution
 2. Employment generation
@@ -53,6 +55,7 @@ This comparative study helps identify:
 4. Growth potential for businesses
 
 **This project demonstrated:**
+
 1. **Extracted and cleaned raw Eurostat data**
 2. **Unpivoted** 6 sheets (3 manufacturing and 3 services)
 3. **Ran SQL** to compute KPIs for each sector
@@ -82,6 +85,7 @@ The result is a consolidated understanding of **Europe's manufacturing vs. servi
 -  Seaborn
   
 **Version control**
+
 Git & Github
 
 ## Folder Structure 
@@ -175,6 +179,7 @@ These countries also represent:
      - Saved each cleaned sheet as CSV
      
   **2. SQL Analysis (24 KPI tables)**
+  
   For each of the **6 sheets**, 
    four KPI tables were generated:
   
@@ -188,6 +193,7 @@ These countries also represent:
   - **Services_master.csv**
     
 **3. Python Analysis**
+
 Steps:
 1. Imported master CSV files
 2. Merged into a final combined dataset
@@ -209,6 +215,7 @@ Steps:
     6. Cross-country comparisons 
 
 ## How to run this project
+
 Follow the steps below to reproduce the SQL analysis, Python analysis and visualisations
 
 *1. Clone the repository*
@@ -260,7 +267,9 @@ Everything is reproducible with the code in this repositoty.
 The combined SQL and Python analysis reveals clear differences in performance, stability and growth between the Manufacturing and Services sectors across six major European economies.
 
 **1. Sector-level Insights**
+
    **Manufacturing** 
+   
        - *Highly concentrated sector* - A small group of countries (Italy, Germany, Netherlands) dominate enterprise count, turnover and production value.
        - *High Volatility* - Manufactuing shows significant fluctuations in turnover and production output, indicating sensivity to economic cycles.
        - *Uneven production capacity* - large gaps between high-performing and low-performing countries suggest unequal industrial infrastructure.
@@ -273,6 +282,7 @@ The combined SQL and Python analysis reveals clear differences in performance, s
 3. *Netherlands* - Strong enterprise base and turnover
    
     **Services**
+   
        - More stable than manufacting - lower volatility across all KPIs.
        - Balanced distribution - fewer outliers and more uniform performance among countries
        - Better long-term predictability - services sector shows steady patterns across most metrics
@@ -285,6 +295,7 @@ The combined SQL and Python analysis reveals clear differences in performance, s
 3. Sweden 
 
 **3. Cross-sector comparison**
+
  - Manufacturing - **High value and High volatility**
  - Services - **moderate value, High stability**
 
@@ -295,16 +306,19 @@ Key observations:
 4. Enterprise count does not directly drive turnover or growth
 
 **4. Growth Insights**
+
 1. **Germany and Sweden** show consistent positive long-term growth
 2. **Italy and the Netherlands** have strong revenue but unstable growth patterns
 3. Many countries show negative growth values in manufacturing, indicating structural challenges
 
 **5. Volatility Insights**
+
 1. **Italy and the Netherlands** show high volatility - indicating unpredictable revenue cycles.
 2. **Germany and Sweden** show low volatility - making them economically resilient
 3. Volatility is strongly correlated with turnover - high-value markets are also high-risk.
 
 **6. Correlation Insights**
+
 1. **Turnover - Production value** - Strong positive correlation
 2. **Growth - Enterprise count** - Weak correlation
 3. **Volatility - Turnover** - Moderate correlation
@@ -315,6 +329,7 @@ This indicates:
 - Large market experience higher fluctuations
 
 **Summary**
+
 - Manufacturing sector is powerful but unstable
 - Services sector is stable and evenly distributed
 - Germany is the most consistent economy across all KPIs
@@ -325,6 +340,7 @@ This indicates:
 These insights help understand economic stability, risk and performance across Europe.
 
 **Recommendations**
+
  1. **Prioritize stable economies**:
     Germany and Sweden for long-term investment.
 2. **Monitor high-value but volatile markets**:
@@ -335,6 +351,7 @@ These insights help understand economic stability, risk and performance across E
    ICT-driven manufacturing improves resilience.
 
 **Future Scope**
+
  - Forcasting using ARIMA/Prophet
  - Clustering countries based on stability and growth
  - machine learning models for growth prediction
@@ -342,6 +359,7 @@ These insights help understand economic stability, risk and performance across E
  - Deep-diving into sub-industries
 
 ## Project files included 
+
  - Manufacturing_final.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/manufacturing_final.xlsx)
  - Services_final.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/services_final.xlsx)
  - complete_project_output.xlsx (https://github.com/pavithrajonna93/Eurostat_Manufacturing_vs_Services_Analysis/blob/main/data/complete_project_output.xlsx)
