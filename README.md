@@ -1,8 +1,20 @@
 # Multi-country Manufacturing vs Services Analysis (EU, 2013-2020)
 
-## Data Sources 
+## Introduction
 
-## **Eurostat Strctural Business Statistics**
+This project presents a comparative analysis of the **Manufacturing** and **Services** Sectors across six major Eurpoean economies using official data from Eurostat (2005-2020).
+
+The goal is to understand how these two sectors differ in:
+- Growth performance
+- Stability and Volatility
+- Revenue/Production scale
+- Long-term trends and patterns
+
+Using SQL, Python and Exploratory Data Analysis(EDA), this project uncovers structural differences between the two sectors and identifies the top-performing, stable and high-risk economies.
+The analysis highlights how enterprise base, production value and turnover shape the economic landscape of Europe.
+
+## Data Sources 
+# **Eurostat Strctural Business Statistics**
 1. **Manufacturing Sector (NACE Rev. 2 B-E)**
    *Annual detailed enterprise statistics for industry(2005-2020)*
 2. **Services Sector (NACE Rev. 2 G-N, S95)**
@@ -13,8 +25,96 @@ Both datasets include:
 2. Turnover
 3. Production value
 4. Year-wise breakdown
+  
+## Project Summary
+This project analyzes the **Manufacturing** and **Services** sectros across six Eurpoean countries - 
+**Germany, Italy, Netherlands, Sweden, Spain and France**
+Using **Eurostat Structural Business Statistics (2005-2020)**
 
-## Final dataset shape
+The study across two sectors compares:
+1. **Average Growth(%)**
+2. **Average Value** (Enterprise/Turnover/Production value)
+3. **Volatility Range**
+4. **Overall growth(%)**
+
+The goal is to identify **Economic strengths, stability and sector-wise performance differences**
+
+# Why this project?
+Manufacturing and Services are the two economic pillars that define:
+1. GDP contribution
+2. Employment generation
+3. Eport competitiveness
+4. Market maturity
+
+This comparative study helps identify:
+1. High-Performing countries
+2. Stable vs. volatile economies
+3. Sectoral strengths
+4. Growth potential for businesses
+
+# This project demonstrated:
+1. **Extracted and cleaned raw Eurostat data**
+2. **Unpivoted** 6 sheets (3 manufacturing and 3 services)
+3. **Ran SQL** to compute KPIs for each sector
+4. **Merged all datasets in Python**
+5. **Performed EDA** (Histogram, boxplots, Heatmap, Summary statistics)
+6. **Created Sector-wise visual comparisons**
+7. **Generated insights** for both industries
+The result is a consolidated understanding of **Europe's manufacturing vs. service performance** from 2013 - 2020
+  
+## Tools and Technologies Used 
+1. Google sheets(unpivot with ARRAYFORMULA, FLATTEN, SPLIT)
+2.  Excel 
+# SQL Analysis 
+1. SQlite (DB Browser/Online SQLite editor)
+2. SQL DDL + DML for:
+   - Average growth (%)
+   - Average value
+   - Volatility range
+   - Overall Growth (%)
+
+# Python Analysis 
+-  Google colab
+-  Pandas
+-  Numpy
+-  Matplotlib
+-  Seaborn
+# Version control 
+Git & Github
+
+## Folder Structure 
+This Repository follows a clean and professional structure for clarity, reproducibility and evaluation by universities/Recruiters.
+
+# Project Layout 
+
+1. README.md
+2. data/ - contains raw and cleaned CSVs
+  -  Raw_Manufacturing_enterprise_cleaned.xlsx
+  -  Raw_Manufacturing_turnover_cleaned.xlsx
+  -  Raw_Manufacturing_productionvalue_cleaned.xlsx
+  -  Manufacturing_Master-Manufacturing_Master.xlsx
+  -  Manufacturing_final.xlsx
+  -  Raw_services_enterprise.xlsx
+  -  Raw_services_turnover.xlsx
+  -  Raw_services_production_value.xlsx
+  -  Services_Master_services_Master.xlsx
+  -  Services_final.xlsx
+3. sql/ - contains all SQL queries and resulted tables 
+ - Manufacturing_sql_results.csv
+ - Services_sql_results.csv
+ - SQL Scripts (PDF)
+4. python/ - contains all python scripts - inclduing analysis 
+   - python notebook(colab)
+5. notebooks/ - full google colab notebook 
+   - python notebook(colab)
+6. charts/ - Charts created in python analysis 
+    - All charts (PDF)
+    - EDA Charts (PDF)
+7. reports/ - Project report PDFs appendix 
+     - Final_project_report(PDF)
+     - Appendix (PDF)
+
+## Final dataset Overview
 After cleaning final dataset contains 
 1. **37 rows**
 2. **7 columns**
@@ -63,95 +163,7 @@ These countries also represent:
 - Strong manufacturing and services mix
 - Stable long-term data
 - High research value for comparative analysis
-  
-## Project Summary
-This project analyzes the **Manufacturing** and **Services** sectros across six Eurpoean countries - 
-**Germany, Italy, Netherlands, Sweden, Spain and France**
-Using **Eurostat Structural Business Statistics (2005-2020)**
 
-The study across two sectors compares:
-1. **Average Growth(%)**
-2. **Average Value** (Enterprise/Turnover/Production value)
-3. **Volatility Range**
-4. **Overall growth(%)**
-
-The goal is to identify **Economic strengths, stability and sector-wise performance differences**
-
-## Why this project?
-Manufacturing and Services are the two economic pillars that define:
-1. GDP contribution
-2. Employment generation
-3. Eport competitiveness
-4. Market maturity
-
-This comparative study helps identify:
-1. High-Performing countries
-2. Stable vs. volatile economies
-3. Sectoral strengths
-4. Growth potential for businesses
-
-## This project demonstrated:
-1. **Extracted and cleaned raw Eurostat data**
-2. **Unpivoted** 6 sheets (3 manufacturing and 3 services)
-3. **Ran SQL** to compute KPIs for each sector
-4. **Merged all datasets in Python**
-5. **Performed EDA** (Histogram, boxplots, Heatmap, Summary statistics)
-6. **Created Sector-wise visual comparisons**
-7. **Generated insights** for both industries
-The result is a consolidated understanding of **Europe's manufacturing vs. service performance** from 2013 - 2020
-  
-## Tools and Technologies Used 
-1. Google sheets(unpivot with ARRAYFORMULA, FLATTEN, SPLIT)
-2.  Excel 
-## SQL Analysis 
-1. SQlite (DB Browser/Online SQLite editor)
-2. SQL DDL + DML for:
-   - Average growth (%)
-   - Average value
-   - Volatility range
-   - Overall Growth (%)
-
-## Python Analysis 
--  Google colab
--  Pandas
--  Numpy
--  Matplotlib
--  Seaborn
-## Version control 
-Git & Github
-
-## Folder Structure 
-This Repository follows a clean and professional structure for clarity, reproducibility and evaluation by universities/Recruiters.
-
-# Project Layout 
-
-1. README.md
-2. data/ - contains raw and cleaned CSVs
-  -  Raw_Manufacturing_enterprise_cleaned.xlsx
-  -  Raw_Manufacturing_turnover_cleaned.xlsx
-  -  Raw_Manufacturing_productionvalue_cleaned.xlsx
-  -  Manufacturing_Master-Manufacturing_Master.xlsx
-  -  Manufacturing_final.xlsx
-  -  Raw_services_enterprise.xlsx
-  -  Raw_services_turnover.xlsx
-  -  Raw_services_production_value.xlsx
-  -  Services_Master_services_Master.xlsx
-  -  Services_final.xlsx
-3. sql/ - contains all SQL queries and resulted tables 
- - Manufacturing_sql_results.csv
- - Services_sql_results.csv
- - SQL Scripts (PDF)
-4. python/ - contains all python scripts - inclduing analysis 
-   - python notebook(colab)
-5. notebooks/ - full google colab notebook 
-   - python notebook(colab)
-6. charts/ - Charts created in python analysis 
-    - All charts (PDF)
-    - EDA Charts (PDF)
-7. reports/ - Project report PDFs appendix 
-     - Final_project_report(PDF)
-     - Appendix (PDF)
-     
 ## Methodology 
  **1. Data cleaning**
      - Selected 6 countries with complete multi-year data
@@ -244,7 +256,7 @@ Everything is reproducible with the code in this repositoty.
 The combined SQL and Python analysis reveals clear differences in performance, stability and growth between the Manufacturing and Services sectors across six major European economies.
 
 **1. Sector-level Insights**
-   ## **Manufacturing** 
+   # **Manufacturing** 
        - *Highly concentrated sector* - A small group of countries (Italy, Germany, Netherlands) dominate enterprise count, turnover and production value.
        - *High Volatility* - Manufactuing shows significant fluctuations in turnover and production output, indicating sensivity to economic cycles.
        - *Uneven production capacity* - large gaps between high-performing and low-performing countries suggest unequal industrial infrastructure.
@@ -256,7 +268,7 @@ The combined SQL and Python analysis reveals clear differences in performance, s
 2. *Germany* - Most stable, consistent performer
 3. *Netherlands* - Strong enterprise base and turnover
    
-   ## **Services**
+   # **Services**
        - More stable than manufacting - lower volatility across all KPIs.
        - Balanced distribution - fewer outliers and more uniform performance among countries
        - Better long-term predictability - services sector shows steady patterns across most metrics
@@ -298,7 +310,7 @@ This indicates:
 - More Enterprises is not mean higher growth
 - Large market experience higher fluctuations
 
-## Summary 
+# Summary 
 - Manufacturing sector is powerful but unstable
 - Services sector is stable and evenly distributed
 - Germany is the most consistent economy across all KPIs
@@ -308,7 +320,7 @@ This indicates:
 
 These insights help understand economic stability, risk and performance across Europe.
 
-## Recommendations 
+# Recommendations 
  1. **Prioritize stable economies**:
     Germany and Sweden for long-term investment.
 2. **Monitor high-value but volatile markets**:
@@ -318,7 +330,7 @@ These insights help understand economic stability, risk and performance across E
 4. **Enhance manufacturing with service-integration**:
    ICT-driven manufacturing improves resilience.
 
-## Future Scope 
+# Future Scope 
  - Forcasting using ARIMA/Prophet
  - Clustering countries based on stability and growth
  - machine learning models for growth prediction
